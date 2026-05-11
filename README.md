@@ -8,6 +8,3 @@
 * **Librerías:** Pandas (procesamiento de datos)
 * **Entorno:** Se utilizó un entorno de Anaconda para asegurar la gestión de dependencias y aislamiento de versiones.
 
-
-## Instrucciones de Ejecución
-# Para correr el análisis, asegúrese de estar en el entorno de Anaconda donde Pandas esté instalado:
