@@ -93,7 +93,7 @@ class LoadData:
     )
     return dfUnion
     
-  def UnionDer(self,tablaIzq,tablaDerecha,keyIzqu,keyDerecha):
+  def UnionDer(self,tablaIzq,tablaDerecha,keyIzq,keyDerecha):
     dfUnion = pd.merge(
     tablaIzq,
     tablaDerecha,
@@ -110,7 +110,7 @@ class LoadData:
       if c in tabla.columns:
         tabla[c] = tabla[c].astype(str).str.strip()
       else:
-        print(f"No se encontré la tabla {c}")
+        print(f"No se encontré la columna {c}")
     return tabla
   
   def CambioInt(self,tabla,columnas):
