@@ -1,4 +1,4 @@
-# Pipeline de Ingestión Multi-Formato y Analítica de Retail & E-Commerce
+# Pipeline de Ingestión Multi-Formato (csv,json,marquet)
 
 
 ## EL CONTENIDO DE ESTE REPO ES PARA REALIZAR LA CARGA, TRANSFORMACIÓN Y ANALISIS DE DATOS SIMULANDO LAS OPERACIONES DE RETAIL E E-COMMERCE
@@ -14,7 +14,7 @@
 
 ## Preguntas de Negocio 
 
-* **Una vez cargados nuestros datos el pipeline ejecuta consultas analíticas para resolver cuatro cuestiones criticas del negocio:
+* Una vez cargados nuestros datos el pipeline ejecuta consultas analíticas para resolver cuatro cuestiones criticas del negocio:
 
 
 ### 1. Inventario con Top 10 SKUs más vendidos
